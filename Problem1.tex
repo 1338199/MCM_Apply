@@ -1,30 +1,150 @@
 \section{Problem 1: Design for Decision Model}
+Taxi drivers always aim to make more profits, therefore, we use the net income of taxi drivers in a certain time interval as the standard of decision-making. Assuming that both taxis $D_{a}$ and $D_{b}$ arrive at the airport at time A, driver $D_{a}$ decides to enter the "car storage pool" to queue for passengers and complete the delivery at time B, then time A to time B is the time period considered by our decision-making model, because this time period takes into account the main factors such as queuing time, no-load time and so on. In this period, the net income $W_{1}$ of $D_{a}$ is the total income $I_{1}$ minus the fuel consumption $O_{1}$ when delivering passengers, i.e:
+\begin{equation}
+	W_{1}= I_{1}-O_{1} 
+	\label{W_1}
+\end{equation}
+Set $t(Y-X)$ as the time spent from $X$ to $Y$, calculated in hours. If $D_{b}$ decides to return to the urban area to carry passengers, then during the period of $T(B-A)$, $D_{b}$'s net income $W_{2}$ is the total income $I_{2}$ minus the total fuel cost $O_{2}$ consumed in delivering passengers, and then minus the fuel cost $O_{e}$ consumed in no-load time:
+\begin{equation}
+	W_{2}= I_{2}-O_{2}-O_{e}
+	\label{W_2}
+\end{equation}
+If $W_{1}$ > $W_{2}$, it is a better choice for drivers who arrive at the airport at time A to enter the "car storage pool" to carry passengers. On the contrary, if $W_{1}$ < $W_{2}$, it is more cost-effective to return to the city without load. If the revenue is the same, both options are available. 
+\subsection{Net Income for Queueing Taxis}
+Further analysis, for $D_{a}$: specifically speaking, $I_{1}$ is the fare paid by passengers. $I_1$ is related to the mileage $L_1$ for delivering passengers. In the real scene, most passengers from the airport will go to the city, which is also mentioned in the problem statement. Therefore, we set the distance from the airport to the city center as $L_1$. $I_1$ is also related to the charging standard of taxis. Generally speaking, $L_1$ exceeds the gradient charging mileage a and b of taxis, so there are:
+\begin{equation}
+	I_{1} = f_{1}+f_{2} \cdot (b-a)+f_{3} \cdot (L_{1}-b)
+	\label{I_1}
+\end{equation}
+where $f_{1}, f_{2}$and $f_{3}$ are the gradient pricing fees for three sections of taxi mileage respectively. $O_{1}$ is $L_{1}$ multiplied by fuel consumption per kilometer $o$ multiplied by oil price per volume $k$. Namely:
+\begin{equation}
+	O_{1}= L_{1}\cdot o \cdot k 
+	\label{O_1}
+\end{equation}
+Therefore, for driver $D_{a}$, the net income can be specified as:
+\begin{equation}
+	W_{1}= f_{1}+f_{2} \cdot (b-a)+f_{3} \cdot (L_{1}-b) - L_{1}\cdot o \cdot k 
+	\label{W_1_1}
+\end{equation}
+The time period $t(B-A)$ can be divided into "storage pool" queuing time $t_{q}$ and delivery time $t_{s}$. $t_{s}$ can be estimated by dividing average speed per mileage. The average speed $v_{1}$ here is approximated by the airport high speed limit minus $20km/h$. In real life, the speed will also be affected by the weather conditions, and the bad weather will reduce the safe driving speed. The impact factor is set as $\alpha (0 < \alpha \leq 1)$, and $\alpha$ is 1 when the weather is good. In other weather conditions, $\alpha$ is related to visibility. The lower the visibility is, the smaller $\alpha$ is and the slower the speed is. In addition to the weather, the traffic conditions in this period will also affect the driving speed, so that the influencing factor is $\beta, (0 < \beta \leq 1)$. Set the number of vehicles within the mileage $L_{1}$ section at time $t$ as $M$, when $M \leq M_{0}$, the driving is smooth, $\beta$ is 1. $M_{0}$ can be approximated by the average daily traffic flow of this section, $M$ obeys the Poisson distribution $P(\lambda)$, so that:
+\begin{equation}
+	\beta = \left\{\begin{matrix}
+	1, if M \leq  M_{0}\\ 
+	P(M>M_{0}),if M > M_{0}
+	\end{matrix}\right.
+\label{beta}
+\end{equation}
+And we can conclude that:
+\begin{equation}
+	t_{s} = \frac{L_{1}}{\alpha \cdot \beta \cdot V_{1}}
+\label{t_s}
+\end{equation}
+But calculation of $t_{q}$ is more complex, which is related to the number of passengers in this period and the vehicle density $N_{c}$ in this period. Here, the number of passengers can be estimated by the flight density $N_{a}$. In order to better predict the $t_{q}$ of a certain period, we divide 0:00-24:00 into 12 periods, each of which has a corresponding period label $T$. Using $K$ prototype clustering\cite{huang1998extensions}, a set of sample points $(T, N_{a}, N_{c}, t_{q})$ is established, where $T$ is the time period label. Therefore, we can find the corresponding classification for the specific $(T, N_{a}, N_{c})$, and then get $t_{q}$. The clustering steps are as follows:
+
+$X=\left \{ X_{1},X_{2},…,X_{n}\right \}$ represents n such sample point sets. For each point set, there are four attributes $(T, N_{a}, N_{c}, t_{q})$ corresponding to $X_{i} = \left \{ x_{iT}, x_{ia}, x_{ic}, x_{iq}\right \}$. For numerical attributes $N_{a}, N_{c}, t_{q}$, firstly normalization processing is carried out:
+\begin{equation}
+	{x_{ik}}' =\frac{x_{ik}-\bar{x_{k}}}{s_{k}}
+\label{x_ik'}
+\end{equation}
+where:
+\begin{equation}
+	\bar{x_{k}} = \frac{1}{n} \cdot \sum_{i=1}^{n}x_{ik}
+\label{x_k_bar}
+\end{equation}
+
+\begin{equation}
+	s_{k} = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(x_{ik}-\bar{x_{k}})^{2}}
+\label{s_k}
+\end{equation}
+we use Euclidean distance to define the different distance of numerical attribute:
+\begin{equation}
+	D(X_{i},X_{j})=\sqrt{(x_{ia}-x_{ja})^{2}+(x_{ic}-x_{jc})^2+(x_{iq}-x_{jq})^{2}}
+\label{D}
+\end{equation}
+For classification attribute $T$, Hamming distance is used:
+\begin{equation}
+	d(x_{ik},x_{jk})=\left\{\begin{matrix}
+	1, if x_{ik} \neq x_{jk}\\ 
+	0, if x_{ik} = x_{jk}
+\end{matrix}\right.
+\label{d}
+\end{equation}
+So the distance between the sample point set $X_{i}$ and the cluster $Q_{l}$ is:
+\begin{equation}
+	D_{s}(X_{i},Q_{l})=D(X_{i},X_{l})+\mu \cdot d(x_{iT},x_{lT}) 
+\label{D_s}
+\end{equation}
+where $X_{l}$ is the prototype (center) of the cluster $Q_{l}$. Then the total loss function of this classification is:
+\begin{equation}
+	E= \sum_{l=1}^{k}\sum_{i=1}^{n}y_{il}D_{s}(X_{i},X_{l})
+\label{E}
+\end{equation}
+\subsection{Net Income for Returning Taxis}
+For driver $D_{b}$, he takes time $t_{s}$ to return to the urban area. Within the time of driver $D_{a}$'s queuing time $t_{q}$, driver $D_{b}$ can receive passengers many times, set it to be $N_{y}$ times. The total income $I_{2}$ of driver $D_{b}$ is the fare paid by a passenger per time (name it $i_{2}$) times $N_{y}$ (assume the income of each passenger delivering in the urban area is the same). $i_{2}$ is related to the distance $L_{2}$. In reality, most of the passengers in the urban area are of short distance trip. Here, we use the data we collected to count the average mileage of each passenger delivering downtown as $L_{2}$, and then substitute it into the taxi's gradient charging standard to get $I_{2}$:
+\begin{equation}
+	i_{2} = \left\{\begin{matrix}
+f_{1}, if L_{2} \leq a\\ 
+f_{1} + (L_{2} - a)\cdot f_{2}, if a < L_{2} \leq b\\ 
+f_{1} + f_{2}\cdot(b-a) + f_{3}\cdot(L_{2} - b), if L_{2} > b 
+\end{matrix}\right.
+\label{i_2}
+\end{equation}
+The calculation of $O_{2}$ is similar to that of $O_{1}$:
+\begin{equation}
+	O_{2}= L_{2}\cdot o \cdot k \cdot N_{y}
+\label{O_2}
+\end{equation}
+The oil cost of $O_{e}$ is divided into two parts, one is the no-load oil cost $O_{e1}$ from the airport to the urban area, the other is the oil cost $O_{e2}$ waiting for passengers in the urban area for $N_{y}$ times. And the distance from the airport to the city is $L_{1}$, so we have:
+\begin{equation}
+	O_{e1}= L_{1}\cdot o \cdot k 
+\label{O_e1}
+\end{equation}
+On the other hand, we can use the collected data to count the average time taken by taxis to pick up a passenger in the urban area, at different time labels, and then take the urban speed limit minus $10km/h$ as the average speed of the taxis in the urban area, viz:
+\begin{equation}
+	O_{e2}= t_{w}\cdot V_{2} \cdot o \cdot k \cdot N_{y}
+\label{O_e2}
+\end{equation}
+If the time of delivering passengers in urban area is $t_{p}$, then:
+\begin{equation}
+	t_{p} = \frac{L_{2}}{\alpha \cdot \beta \cdot V_{2}}
+\label{t_p}
+\end{equation}
+In addition to the impact of weather on taxi speed, it will also affect $t_{w}$. For example, heavy rain or hot weather will make urban residents more inclined to take a taxi, and $t_{w}$ will decrease, while in typhoon weather, people are not inclined to take a taxi, and $t_w$ will increase. Set the influencing factor as $\gamma, (\gamma > 0)$. From this, we can get the approximate value of $N_{y}$:
+\begin{equation}
+	N_{y} = \frac{t_{q}}{\gamma \cdot t_{w} + t_{p}}
+\label{N_y}
+\end{equation}
+Therefore, for driver $D_{b}$, the net income can be specified as:
+\begin{equation}
+	W_{2} = i_{2} \cdot N_{y} - L_{2} \cdot o \cdot k \cdot N_{y} - (L_{1} \cdot o \cdot k +t_{w} \cdot V_{2} \cdot o \cdot k \cdot N_{y} )
+\label{W_2_2}
+\end{equation}
 %\subsection{Strengths}
-\begin{enumerate}
-\item \textbf{Our model is simple and easy to understand} \\
-Our model is the simplest model we can conceive to reflect the impact of concerned independent variables (factors regarding medication) and to solve the problem lifted by the question. 
-
-Our single-city model is based on the most elegant model in the field of epidemiology - the SIR model, and we reconstruct the model (mainly add two clusters of people) in order to introduce concerned independent variable into our system. 
-
-Our multi-city model is based on our single-city model and introduce only one `people flow` to obtain the geographic characteristic of the spread of disease.
-
-\item \textbf{Our model is effective and in good agreement with the reality} \\
-Simple as they are, they are effective in reflecting the complex relationships between numerous variables and parameters, and they not only reveal the intrinsic characteristics of the spread of disease itself but also successfully link factors of medication to the spread of disease.
-
-Comparing with the data we have find from several resources, the results of our model not only correspond the general trend of the records but also resemble the reality in some critical features.
-
-\item \textbf{Good extensibility} \\
-Flow of people is a critical factor determining the spread of disease. Although our multi-city model only set the volume of people flow as a function of mere geographic distribution and population of cities, the determinants of people flow can be adjusted when other possible factors are considered. Then, the adjusted model can be applied to study the impact of other possible factors relating to epidemiology.
-
-\end{enumerate}
-
-
-
-%\subsection{Weaknesses}
-\begin{enumerate}
-\item \textbf{Our model is just a rough model} \\
-For simplicity, we have neglected many potential parameters, variables or processes, and have made numerous assumptions. Eg. we did not consider the relationship between separate individuals and we did not dig deeper into the properties of social network which is a quite essential part determining the spread of disease. Some important general or specific factors are also neglected by us, a interesting example of which is a folk custom prevalent in the studied region that relatives kiss the death, which plays a significant role in the spread of disease and is categorized into \emph{Super Spread Event}(SSE) academically. 
-
-\item \textbf{Our model is only a continuous model} \\
-Numbers of people, number of shares of drug/vaccine, etc. are important quantities in all the process of modeling and computation. For simplicity, we regard the numbers as directly real numbers instead of integers. It is justifiable when the numbers are large, since the decimal part of the number is negligible; when the system scales down, however, the statistics dose not work and the outcome deviates a lot from reality.
-\end{enumerate}
+%\begin{enumerate}
+%\item \textbf{Our model is simple and easy to understand} \\
+%Our model is the simplest model we can conceive to reflect the impact of concerned independent variables (factors regarding medication) and to solve the problem lifted by the question. 
+%
+%Our single-city model is based on the most elegant model in the field of epidemiology - the SIR model, and we reconstruct the model (mainly add two clusters of people) in order to introduce concerned independent variable into our system. 
+%
+%Our multi-city model is based on our single-city model and introduce only one `people flow` to obtain the geographic characteristic of the spread of disease.
+%
+%\item \textbf{Our model is effective and in good agreement with the reality} \\
+%Simple as they are, they are effective in reflecting the complex relationships between numerous variables and parameters, and they not only reveal the intrinsic characteristics of the spread of disease itself but also successfully link factors of medication to the spread of disease.
+%
+%Comparing with the data we have find from several resources, the results of our model not only correspond the general trend of the records but also resemble the reality in some critical features.
+%
+%\item \textbf{Good extensibility} \\
+%Flow of people is a critical factor determining the spread of disease. Although our multi-city model only set the volume of people flow as a function of mere geographic distribution and population of cities, the determinants of people flow can be adjusted when other possible factors are considered. Then, the adjusted model can be applied to study the impact of other possible factors relating to epidemiology.
+%
+%\end{enumerate}
+%
+%
+%
+%%\subsection{Weaknesses}
+%\begin{enumerate}
+%\item \textbf{Our model is just a rough model} \\
+%For simplicity, we have neglected many potential parameters, variables or processes, and have made numerous assumptions. Eg. we did not consider the relationship between separate individuals and we did not dig deeper into the properties of social network which is a quite essential part determining the spread of disease. Some important general or specific factors are also neglected by us, a interesting example of which is a folk custom prevalent in the studied region that relatives kiss the death, which plays a significant role in the spread of disease and is categorized into \emph{Super Spread Event}(SSE) academically. 
+%
+%\item \textbf{Our model is only a continuous model} \\
+%Numbers of people, number of shares of drug/vaccine, etc. are important quantities in all the process of modeling and computation. For simplicity, we regard the numbers as directly real numbers instead of integers. It is justifiable when the numbers are large, since the decimal part of the number is negligible; when the system scales down, however, the statistics dose not work and the outcome deviates a lot from reality.
+%\end{enumerate}
