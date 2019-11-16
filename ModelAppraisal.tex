@@ -1,13 +1,26 @@
 \section{Model Appraisal}
 
 \subsection{The strengths of the model}
-In this paper, we have constructed our models based on the biological features of EVD, social features of human society and several reasonable assumptions. Our models consist of two parts: one is considering the the spread of disease within a single city and serves as the base of the other; the other takes the people flow among the cities into account, the application of which gives an optimized plan regarding how should we allocate the resources of medication such as vaccine.
+\begin{enumerate}
+    \item The data reliability is high, and the generalization ability of the trained model is stronger because all kinds of factors are considered as much as possible.
+    \item From the verification results of the example, the selection of time window is reasonable, taking into account various main factors 
+    \item Problem 3 model has two forms, which can be applied to different passenger flow.It does not have the situation that the passenger flow is large and the team length is infinite, and it has strong carrying capacity for large passenger flow.What's more, the model considers various security issues
+\end{enumerate}
 
 \subsection{The weaknesses of the model}
+\begin{enumerate}
+    \item Due to the limited amount of data collected, there is no analysis of holidays, seasons and other factors, and the analysis of weather factors is not detailed enough \item The airport flight data of problem 2 has no international flight, and the data is missing between 00:00-8:00, which makes the decision model unable to make decisions for some time periods. 
+    \item The problem 3 model does not consider the differences of each passenger, different passengers may have different boarding times, and finally all passengers are the slowest one to wait. And this model needs a lot of boarding points when solving large passenger flow, and there may be a better model scheme.   
+\end{enumerate}
 
-Both of the models are applied to specific cases separately, and the results of computation which are carefully studied justified our model. Through our analysis of the model, we explored and explained the complex relationship among numerous variables and parameters.
 
 \subsection{The improvement of the model}
-The effectiveness of medical treatment ( including segregation, vaccination and pharmacotherapy ) is verified by our model and the strategy to allocate vaccine and drug is revealed by our investigation.
+\begin{enumerate}
+    \item By adding sample data and analyzing the data of airport and taxi for one month or even one year, we can consider more factors and improve the robustness of the model \item Problem 3 model can further consider the difference of passengers and calculate the expectation of the maximum boarding time of all passengers from the perspective of probability.
+\end{enumerate}
 
 \subsection{The Extension of the model}
+\begin{enumerate}
+    \item In addition to the airport, the taxi decision-making model and the plan of the loading area of each high-speed railway station and railway station can refer to this model for rapid transplantation.
+    \item In addition to the decision-making model of airport boarding point, the problem 3 model can also be applied to the maximum utility required by many to many service model, such as the cash register of large shopping malls, etc.
+\end{enumerate}
