@@ -73,6 +73,7 @@ ${f}_3$  & 3.6 & Unit: \textyen, over part B, 3.6 \textyen/km\\
 $\mu$  & 0.15 & Weighting factors for time periods\\
 \hline
 \end{tabularx}
+\label{parameter_setting}
 \end{table}
 
 
@@ -143,7 +144,7 @@ The decision calculated by our model has the following characteristics:
 And about rationality analysis
 \begin{enumerate}
 \item The parameters such as taxi time interval, average speed distribution, average waiting time for single receipt and taxi pricing are all open real data. At the same time, the extracted airport taxi sample data is obtained through a large number of screening statistics, which is consistent with the actual situation.
-\item The clustering model used to calculate the waiting time of the queue has a better clustering effect. After the evaluation of the contour coefficient combining the two factors of cohesion and separation, that is, for each vector in K clusters, the contour coefficient\cite{kaggleCompetition} of each vector is calculated by the following formula:
+\item The clustering model used to calculate the waiting time of the queue has a better clustering effect. After the evaluation of the silhouette coefficient combining the two factors of cohesion and separation, that is, for each vector in K clusters, the silhouette coefficient\cite{kaufman2009finding} of each vector is calculated by the following formula:
 \begin{equation} S(i) = \frac{b(i)-a(i)}{max(a(i),b(i))}\end{equation}
 \end{enumerate}
 

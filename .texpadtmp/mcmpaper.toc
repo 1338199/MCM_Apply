@@ -8,20 +8,24 @@
 \contentsline {subsection}{\numberline {2.4}Analysis of task 4}{6}{subsection.2.4}% 
 \contentsline {section}{\numberline {3}Model Assumptions}{6}{section.3}% 
 \contentsline {section}{\numberline {4}Parameter Table}{7}{section.4}% 
-\contentsline {section}{\numberline {5}Problem 1: Design for Decision Model}{7}{section.5}% 
-\contentsline {subsection}{\numberline {5.1}Net Income for Queueing Taxis}{7}{subsection.5.1}% 
+\contentsline {section}{\numberline {5}Problem 1: Design for Decision Model}{8}{section.5}% 
+\contentsline {subsection}{\numberline {5.1}Net Income for Queueing Taxis}{8}{subsection.5.1}% 
 \contentsline {subsection}{\numberline {5.2}Net Income for Returning Taxis}{9}{subsection.5.2}% 
-\contentsline {section}{\numberline {6}Problem 2: Verification for the Decision Model}{10}{section.6}% 
-\contentsline {section}{\numberline {7}Problem 3: Design for Schedule Model}{10}{section.7}% 
-\contentsline {section}{\numberline {8}Problem 4: Design for Priority Model}{11}{section.8}% 
-\contentsline {subsection}{\numberline {8.1}Construction of Priority Model}{11}{subsection.8.1}% 
-\contentsline {subsection}{\numberline {8.2}Verification of Priority Model}{13}{subsection.8.2}% 
-\contentsline {section}{\numberline {9}Model Appraisal}{14}{section.9}% 
-\contentsline {subsection}{\numberline {9.1}The strengths of the model}{14}{subsection.9.1}% 
-\contentsline {subsection}{\numberline {9.2}The weaknesses of the model}{15}{subsection.9.2}% 
-\contentsline {subsection}{\numberline {9.3}The improvement of the model}{15}{subsection.9.3}% 
-\contentsline {subsection}{\numberline {9.4}The Extension of the model}{15}{subsection.9.4}% 
-\contentsline {section}{\numberline {10}Conclusion}{15}{section.10}% 
-\contentsline {section}{Appendices}{15}{section*.2}% 
-\contentsline {section}{Appendix \numberline {A}First appendix}{15}{Appendix.a.A}% 
-\contentsline {section}{Appendix \numberline {B}Second appendix}{16}{Appendix.a.B}% 
+\contentsline {section}{\numberline {6}Problem 2: Decisions for Drivers and Analysis for the Decision Model}{10}{section.6}% 
+\contentsline {subsection}{\numberline {6.1}Data Preparing}{10}{subsection.6.1}% 
+\contentsline {subsection}{\numberline {6.2}Parameter Calibration}{12}{subsection.6.2}% 
+\contentsline {subsection}{\numberline {6.3}Model Calculation}{12}{subsection.6.3}% 
+\contentsline {subsection}{\numberline {6.4}Rationality Analysis}{14}{subsection.6.4}% 
+\contentsline {subsection}{\numberline {6.5}Dependency Analysis}{15}{subsection.6.5}% 
+\contentsline {section}{\numberline {7}Problem 3: Design for Schedule Model}{16}{section.7}% 
+\contentsline {section}{\numberline {8}Problem 4: Design for Priority Model}{16}{section.8}% 
+\contentsline {subsection}{\numberline {8.1}Construction of Priority Model}{16}{subsection.8.1}% 
+\contentsline {subsection}{\numberline {8.2}Verification of Priority Model}{18}{subsection.8.2}% 
+\contentsline {section}{\numberline {9}Model Appraisal}{19}{section.9}% 
+\contentsline {subsection}{\numberline {9.1}The strengths of the model}{19}{subsection.9.1}% 
+\contentsline {subsection}{\numberline {9.2}The weaknesses of the model}{19}{subsection.9.2}% 
+\contentsline {subsection}{\numberline {9.3}The improvement of the model}{20}{subsection.9.3}% 
+\contentsline {subsection}{\numberline {9.4}The Extension of the model}{20}{subsection.9.4}% 
+\contentsline {section}{\numberline {10}Conclusion}{20}{section.10}% 
+\contentsline {section}{Appendices}{21}{section*.2}% 
+\contentsline {section}{Appendix \numberline {A}Source Codes}{21}{Appendix.a.A}% 

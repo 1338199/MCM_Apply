@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.22)  14 NOV 2019 21:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.22)  16 NOV 2019 22:44
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -487,7 +487,195 @@ File: lstlang1.sty 2019/02/27 1.8b listings language file
 File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
 )) (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/palatino.sty
 Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen157
+\WF@size=\dimen158
+\c@WF@wrappedlines=\count144
+\WF@box=\box41
+\WF@everypar=\toks38
+Package: wrapfig 2003/01/31  v 3.6
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count145
+\float@exts=\toks39
+\float@box=\box42
+\@float@everytoks=\toks40
+\@floatcapt=\box43
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+FEFF (decimal 65279)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 ) (/Users/johnsauhu/Documents/MCM_Apply/.texpadtmp/mcmpaper.aux
+
+LaTeX Warning: Label `fig:label' multiply defined.
+
+
+LaTeX Warning: Label `fig:label' multiply defined.
+
+
+LaTeX Warning: Label `Fig.sub.q2111' multiply defined.
+
+
+LaTeX Warning: Label `sub@Fig.sub.q2111' multiply defined.
+
+
+LaTeX Warning: Label `Fig.sub.q2112' multiply defined.
+
+
+LaTeX Warning: Label `sub@Fig.sub.q2112' multiply defined.
+
+
+LaTeX Warning: Label `Fig.q211' multiply defined.
+
 
 LaTeX Warning: Label `O_l' multiply defined.
 
@@ -500,41 +688,47 @@ LaTeX Warning: Label `S_b' multiply defined.
 )
 \openout1 = `mcmpaper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 25.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 25.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 21.
-\c@lstlisting=\count144
+(lastpage)             ! on input line 25.
+\c@lstlisting=\count146
  (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count145
-\scratchdimen=\dimen157
-\scratchbox=\box41
-\nofMPsegments=\count146
-\nofMParguments=\count147
-\everyMPshowfont=\toks38
-\MPscratchCnt=\count148
-\MPscratchDim=\dimen158
-\MPnumerator=\count149
-\makeMPintoPDFobject=\count150
-\everyMPtoPDFconversion=\toks39
+\scratchcounter=\count147
+\scratchdimen=\dimen159
+\scratchbox=\box44
+\nofMPsegments=\count148
+\nofMParguments=\count149
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count150
+\MPscratchDim=\dimen160
+\MPnumerator=\count151
+\makeMPintoPDFobject=\count152
+\everyMPtoPDFconversion=\toks42
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -570,111 +764,228 @@ Package lastpage Info: Please have a look at the pageslts package at
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box42
-Package hyperref Info: Link coloring OFF on input line 21.
+\AtBeginShipoutBox=\box45
+Package hyperref Info: Link coloring OFF on input line 25.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count151
+\c@section@level=\count153
 )
-LaTeX Info: Redefining \ref on input line 21.
-LaTeX Info: Redefining \pageref on input line 21.
-LaTeX Info: Redefining \nameref on input line 21.
+LaTeX Info: Redefining \ref on input line 25.
+LaTeX Info: Redefining \pageref on input line 25.
+LaTeX Info: Redefining \nameref on input line 25.
  (/Users/johnsauhu/Documents/MCM_Apply/.texpadtmp/mcmpaper.out) (/Users/johnsauhu/Documents/MCM_Apply/.texpadtmp/mcmpaper.out)
 \@outlinefile=\write4
 \openout4 = `mcmpaper.out'.
 
  (./abstract.tex)
-LaTeX Font Info:    Try loading font information for T1+fvs on input line 26.
+LaTeX Font Info:    Try loading font information for T1+fvs on input line 30.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/bera/t1fvs.fd
 File: t1fvs.fd 2004/09/07 scalable font definitions for T1/fvs.
 )
 LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 26.
+(Font)              scaled to size 9.85492pt on input line 30.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd) (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd) (/usr/local/texlive/2019/texmf-dist/tex/latex/jknapltx/ursfs.fd) (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ulasy.fd)
 LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
-(Font)              scaled to size 34.19977pt on input line 26.
+(Font)              scaled to size 34.19977pt on input line 30.
 LaTeX Font Info:    Font shape `T1/fvs/bx/n' in size <38> not available
-(Font)              Font shape `T1/fvs/b/n' tried instead on input line 26.
+(Font)              Font shape `T1/fvs/b/n' tried instead on input line 30.
 LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
-(Font)              scaled to size 34.19977pt on input line 26.
+(Font)              scaled to size 34.19977pt on input line 30.
 
-Overfull \hbox (16.3899pt too wide) in paragraph at lines 26--26
- []\T1/fvs/b/n/38 1922402 
+Overfull \hbox (16.3899pt too wide) in paragraph at lines 30--30
+ []\T1/fvs/b/n/38 1999759 
  []
 
 LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
-(Font)              scaled to size 17.99988pt on input line 26.
+(Font)              scaled to size 17.99988pt on input line 30.
 LaTeX Font Info:    Font shape `T1/fvs/bx/n' in size <20> not available
-(Font)              Font shape `T1/fvs/b/n' tried instead on input line 26.
+(Font)              Font shape `T1/fvs/b/n' tried instead on input line 30.
 LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
-(Font)              scaled to size 17.99988pt on input line 26.
+(Font)              scaled to size 17.99988pt on input line 30.
 LaTeX Font Info:    Font shape `T1/fvs/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/fvs/b/n' tried instead on input line 26.
+(Font)              Font shape `T1/fvs/b/n' tried instead on input line 30.
 LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
-(Font)              scaled to size 9.85492pt on input line 26.
+(Font)              scaled to size 9.85492pt on input line 30.
 LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 26.
+(Font)              scaled to size 10.79993pt on input line 30.
 LaTeX Font Info:    Font shape `T1/fvs/bx/n' in size <12> not available
-(Font)              Font shape `T1/fvs/b/n' tried instead on input line 26.
+(Font)              Font shape `T1/fvs/b/n' tried instead on input line 30.
 LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 26.
+(Font)              scaled to size 10.79993pt on input line 30.
 [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 26.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 30.
  (/Users/johnsauhu/Documents/MCM_Apply/.texpadtmp/mcmpaper.toc
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
-)
+ [2])
 \tf@toc=\write5
 \openout5 = `mcmpaper.toc'.
 
- [2] [3] (./Restatementoftheproblems.tex
+ [3] (./Restatementoftheproblems.tex
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
 ) (./ModelAnalysis.tex [4] [5]) (./ModelAssumption.tex
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 17.
- (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/omsppl.fd
-File: omsppl.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
-
-Overfull \hbox (7.12405pt too wide) in paragraph at lines 21--23
-\T1/ppl/m/n/10.95 A so-ci-ety will be less af-fected by EVD if proper mea-sures are taken ef-fi-ciently and promptly.
+LaTeX Font Info:    Try loading font information for TS1+ppl on input line 17.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ts1ppl.fd
+File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
+) [6]) (./ParameterTable.tex
+Overfull \hbox (8.97943pt too wide) in paragraph at lines 5--70
+ [][] 
  []
 
-) (./ParameterTable.tex
+) (./Problem1.tex [7pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
 
-LaTeX Warning: Reference `tab.symbol' on page 6 undefined on input line 2.
-
-[6]) (./Problem1.tex [7]
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.3 \begin{equation}
+                    ] [8]
 
 LaTeX Warning: Command \textellipsis invalid in math mode on input line 44.
 
-[8]) (./Problem2.tex [9]) (./Problem3.tex [10]) (./Problem4.tex [11] [12]
-<./figures/P_l6.png, id=259, 416.2752pt x 78.0516pt>
+[9]) (./Problem2.tex
+<figures/Q2_1.png, id=235, 613.54219pt x 322.95656pt>
+File: figures/Q2_1.png Graphic file (type png)
+<use figures/Q2_1.png>
+Package pdftex.def Info: figures/Q2_1.png  used on input line 8.
+(pdftex.def)             Requested size: 318.66948pt x 167.74126pt.
+ [10]
+<figures/Q2_2.png, id=249, 842.14626pt x 612.2875pt>
+File: figures/Q2_2.png Graphic file (type png)
+<use figures/Q2_2.png>
+Package pdftex.def Info: figures/Q2_2.png  used on input line 17.
+(pdftex.def)             Requested size: 204.85631pt x 113.80394pt.
+<figures/Q2_3.png, id=250, 857.2025pt x 452.69125pt>
+File: figures/Q2_3.png Graphic file (type png)
+<use figures/Q2_3.png>
+Package pdftex.def Info: figures/Q2_3.png  used on input line 20.
+(pdftex.def)             Requested size: 204.85645pt x 113.80801pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+<figures/Q2_4.png, id=251, 821.0675pt x 479.7925pt>
+File: figures/Q2_4.png Graphic file (type png)
+<use figures/Q2_4.png>
+Package pdftex.def Info: figures/Q2_4.png  used on input line 29.
+(pdftex.def)             Requested size: 318.66948pt x 186.2105pt.
+
+Underfull \hbox (badness 2134) in paragraph at lines 41--41
+[]|\T1/ppl/m/n/10.95 the time be-gin queu-ing at
+ []
+
+
+Underfull \hbox (badness 3323) in paragraph at lines 44--44
+\T1/ppl/m/n/10.95 land-ing at Pudong air-port
+ []
+
+[11pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.46 \end{table}
+                pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.46 \end{table}
+                pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.46 \end{table}
+                 <./figures/Q2_1.png> <./figures/Q2_2.png (PNG copy)> <./figures/Q2_3.png (PNG copy)> <./figures/Q2_4.png (PNG copy)>] [12pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.83 ...\sum_{i=1}^{n} {D}_s({X}_i,{X}_{center})\]
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.83 ...\sum_{i=1}^{n} {D}_s({X}_i,{X}_{center})\]
+                                                  ]
+Overfull \hbox (24.39998pt too wide) in alignment at lines 97--97
+[][] 
+ []
+
+<figures/Q2_5.png, id=270, 974.64125pt x 733.74126pt>
+File: figures/Q2_5.png Graphic file (type png)
+<use figures/Q2_5.png>
+Package pdftex.def Info: figures/Q2_5.png  used on input line 103.
+(pdftex.def)             Requested size: 318.66948pt x 239.90736pt.
+<figures/Q2_6.png, id=271, 590.95781pt x 364.36125pt>
+File: figures/Q2_6.png Graphic file (type png)
+<use figures/Q2_6.png>
+Package pdftex.def Info: figures/Q2_6.png  used on input line 113.
+(pdftex.def)             Requested size: 204.85452pt x 142.26154pt.
+<figures/Q2_7.png, id=272, 590.205pt x 343.2825pt>
+File: figures/Q2_7.png Graphic file (type png)
+<use figures/Q2_7.png>
+Package pdftex.def Info: figures/Q2_7.png  used on input line 116.
+(pdftex.def)             Requested size: 204.85474pt x 142.26053pt.
+[13pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.120 A
+       ccording to the above figures, we can see the decision scheme made by...pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.120 A
+       ccording to the above figures, we can see the decision scheme made by... <./figures/Q2_5.png (PNG copy)>] [14pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.143 \end{enumerate}
+                     pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.143 \end{enumerate}
+                      <./figures/Q2_6.png> <./figures/Q2_7.png>]
+Underfull \hbox (badness 10000) in alignment at lines 167--167
+[][][][][] 
+ []
+
+[15pdfTeX warning (ext4): destination with the same identifier (name{table.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.195 \end{equation}
+                    ]
+Underfull \hbox (badness 10000) in alignment at lines 207--207
+[][][][][][][] 
+ []
+
+) (./Problem3.tex) (./Problem4.tex [16pdfTeX warning (ext4): destination with the same identifier (name{table.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.27 \end{equation}
+                   ] [17]
+<./figures/P_l6.png, id=340, 416.2752pt x 78.0516pt>
 File: ./figures/P_l6.png Graphic file (type png)
 <use ./figures/P_l6.png>
 Package pdftex.def Info: ./figures/P_l6.png  used on input line 123.
 (pdftex.def)             Requested size: 455.24411pt x 85.36276pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./figures/P_l7.png, id=261, 416.2752pt x 79.0152pt>
+<./figures/P_l7.png, id=342, 416.2752pt x 79.0152pt>
 File: ./figures/P_l7.png Graphic file (type png)
 <use ./figures/P_l7.png>
 Package pdftex.def Info: ./figures/P_l7.png  used on input line 130.
 (pdftex.def)             Requested size: 455.24411pt x 86.41663pt.
 
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures/P_l8.png, id=262, 416.2752pt x 81.906pt>
+<./figures/P_l8.png, id=343, 416.2752pt x 81.906pt>
 File: ./figures/P_l8.png Graphic file (type png)
 <use ./figures/P_l8.png>
 Package pdftex.def Info: ./figures/P_l8.png  used on input line 137.
@@ -682,51 +993,61 @@ Package pdftex.def Info: ./figures/P_l8.png  used on input line 137.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13]) (./ModelAppraisal.tex [14 <./figures/P_l6.png> <./figures/P_l7.png> <./figures/P_l8.png>]) (./Conclusion.tex) (./reference.tex) (./appendix.tex
+[18pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.152 \end{enumerate}
+                      <./figures/P_l6.png>]) (./ModelAppraisal.tex [19pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.13     \item T
+                he problem 3 model does not consider the differences of each...pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.13     \item T
+                he problem 3 model does not consider the differences of each... <./figures/P_l7.png> <./figures/P_l8.png>]) (./Conclusion.tex) (./reference.tex [20]) (./appendix.tex
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-
- []
-
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 15.
-(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/t1pcr.fd
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/02/27 1.8b listings language file
+)
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 9.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) (./code/matlab1.m
+) (./code/k_means.py
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <9> not available
 (Font)              Font shape `T1/pcr/b/n' tried instead on input line 1.
- [15]) (./code/sudoku.cpp)) 
+ [21]) (./code/Model2.py [22] [23]) (./code/Model4.py [24])) 
 AED: lastpage setting LastPage
-[16]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 43.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 43.
+[25]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 47.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 47.
  (/Users/johnsauhu/Documents/MCM_Apply/.texpadtmp/mcmpaper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 43.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 43.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 47.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
 Package rerunfilecheck Info: File `mcmpaper.out' has not changed.
-(rerunfilecheck)             Checksum: <no file>.
-
-
-LaTeX Warning: There were undefined references.
+(rerunfilecheck)             Checksum: 15359FB9289221C94B1F1FA82A815928;1355.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11527 strings out of 492616
- 158699 string characters out of 6129481
- 477055 words of memory out of 5000000
- 14975 multiletter control sequences out of 15000+600000
- 60924 words of font info for 85 fonts, out of 8000000 for 9000
+ 12050 strings out of 492616
+ 167506 string characters out of 6129481
+ 738770 words of memory out of 5000000
+ 15192 multiletter control sequences out of 15000+600000
+ 65365 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,12n,51p,1721b,2531s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/bera/fvsb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/bera/fvsr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /Users/johnsauhu/Documents/MCM_Apply/.texpadtmp/mcmpaper.pdf (16 pages, 441367 bytes).
+ 37i,14n,45p,1721b,2156s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/bera/fvsb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/bera/fvsr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on /Users/johnsauhu/Documents/MCM_Apply/.texpadtmp/mcmpaper.pdf (25 pages, 980243 bytes).
 PDF statistics:
- 442 PDF objects out of 1000 (max. 8388607)
- 400 compressed objects within 4 object streams
- 159 named destinations out of 1000 (max. 500000)
- 232 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 841 PDF objects out of 1000 (max. 8388607)
+ 777 compressed objects within 8 object streams
+ 429 named destinations out of 1000 (max. 500000)
+ 299 words of extra memory for PDF output out of 10000 (max. 10000000)
 
