@@ -18,14 +18,20 @@
 \contentsline {subsection}{\numberline {6.4}Rationality Analysis}{14}{subsection.6.4}% 
 \contentsline {subsection}{\numberline {6.5}Dependency Analysis}{15}{subsection.6.5}% 
 \contentsline {section}{\numberline {7}Problem 3: Design for Schedule Model}{16}{section.7}% 
-\contentsline {section}{\numberline {8}Problem 4: Design for Priority Model}{16}{section.8}% 
-\contentsline {subsection}{\numberline {8.1}Construction of Priority Model}{16}{subsection.8.1}% 
-\contentsline {subsection}{\numberline {8.2}Verification of Priority Model}{18}{subsection.8.2}% 
-\contentsline {section}{\numberline {9}Model Appraisal}{19}{section.9}% 
-\contentsline {subsection}{\numberline {9.1}The strengths of the model}{19}{subsection.9.1}% 
-\contentsline {subsection}{\numberline {9.2}The weaknesses of the model}{19}{subsection.9.2}% 
-\contentsline {subsection}{\numberline {9.3}The improvement of the model}{20}{subsection.9.3}% 
-\contentsline {subsection}{\numberline {9.4}The Extension of the model}{20}{subsection.9.4}% 
-\contentsline {section}{\numberline {10}Conclusion}{20}{section.10}% 
-\contentsline {section}{Appendices}{21}{section*.2}% 
-\contentsline {section}{Appendix \numberline {A}Source Codes}{21}{Appendix.a.A}% 
+\contentsline {subsection}{\numberline {7.1}Assumptions}{16}{subsection.7.1}% 
+\contentsline {subsection}{\numberline {7.2}Model establishment}{17}{subsection.7.2}% 
+\contentsline {subsection}{\numberline {7.3}Model verification:}{20}{subsection.7.3}% 
+\contentsline {subsubsection}{\numberline {7.3.1}preparation of data}{20}{subsubsection.7.3.1}% 
+\contentsline {subsubsection}{\numberline {7.3.2}Model calculation}{21}{subsubsection.7.3.2}% 
+\contentsline {subsubsection}{\numberline {7.3.3}Model rationality analysis}{24}{subsubsection.7.3.3}% 
+\contentsline {section}{\numberline {8}Problem 4: Design for Priority Model}{24}{section.8}% 
+\contentsline {subsection}{\numberline {8.1}Construction of Priority Model}{24}{subsection.8.1}% 
+\contentsline {subsection}{\numberline {8.2}Verification of Priority Model}{27}{subsection.8.2}% 
+\contentsline {section}{\numberline {9}Model Appraisal}{28}{section.9}% 
+\contentsline {subsection}{\numberline {9.1}The strengths of the model}{28}{subsection.9.1}% 
+\contentsline {subsection}{\numberline {9.2}The weaknesses of the model}{28}{subsection.9.2}% 
+\contentsline {subsection}{\numberline {9.3}The improvement of the model}{28}{subsection.9.3}% 
+\contentsline {subsection}{\numberline {9.4}The Extension of the model}{28}{subsection.9.4}% 
+\contentsline {section}{\numberline {10}Conclusion}{29}{section.10}% 
+\contentsline {section}{Appendices}{29}{section*.2}% 
+\contentsline {section}{Appendix \numberline {A}Source Codes}{29}{Appendix.a.A}% 

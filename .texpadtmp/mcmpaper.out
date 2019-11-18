@@ -18,14 +18,20 @@
 \BOOKMARK [2][-]{subsection.6.4}{Rationality Analysis}{section.6}% 18
 \BOOKMARK [2][-]{subsection.6.5}{Dependency Analysis}{section.6}% 19
 \BOOKMARK [1][-]{section.7}{Problem 3: Design for Schedule Model}{}% 20
-\BOOKMARK [1][-]{section.8}{Problem 4: Design for Priority Model}{}% 21
-\BOOKMARK [2][-]{subsection.8.1}{Construction of Priority Model}{section.8}% 22
-\BOOKMARK [2][-]{subsection.8.2}{Verification of Priority Model}{section.8}% 23
-\BOOKMARK [1][-]{section.9}{Model Appraisal}{}% 24
-\BOOKMARK [2][-]{subsection.9.1}{The strengths of the model}{section.9}% 25
-\BOOKMARK [2][-]{subsection.9.2}{The weaknesses of the model}{section.9}% 26
-\BOOKMARK [2][-]{subsection.9.3}{The improvement of the model}{section.9}% 27
-\BOOKMARK [2][-]{subsection.9.4}{The Extension of the model}{section.9}% 28
-\BOOKMARK [1][-]{section.10}{Conclusion}{}% 29
-\BOOKMARK [1][-]{section*.2}{Appendices}{}% 30
-\BOOKMARK [1][-]{Appendix.a.A}{Appendix Source Codes}{}% 31
+\BOOKMARK [2][-]{subsection.7.1}{Assumptions}{section.7}% 21
+\BOOKMARK [2][-]{subsection.7.2}{Model establishment}{section.7}% 22
+\BOOKMARK [2][-]{subsection.7.3}{Model verification:}{section.7}% 23
+\BOOKMARK [3][-]{subsubsection.7.3.1}{preparation of data}{subsection.7.3}% 24
+\BOOKMARK [3][-]{subsubsection.7.3.2}{Model calculation}{subsection.7.3}% 25
+\BOOKMARK [3][-]{subsubsection.7.3.3}{Model rationality analysis}{subsection.7.3}% 26
+\BOOKMARK [1][-]{section.8}{Problem 4: Design for Priority Model}{}% 27
+\BOOKMARK [2][-]{subsection.8.1}{Construction of Priority Model}{section.8}% 28
+\BOOKMARK [2][-]{subsection.8.2}{Verification of Priority Model}{section.8}% 29
+\BOOKMARK [1][-]{section.9}{Model Appraisal}{}% 30
+\BOOKMARK [2][-]{subsection.9.1}{The strengths of the model}{section.9}% 31
+\BOOKMARK [2][-]{subsection.9.2}{The weaknesses of the model}{section.9}% 32
+\BOOKMARK [2][-]{subsection.9.3}{The improvement of the model}{section.9}% 33
+\BOOKMARK [2][-]{subsection.9.4}{The Extension of the model}{section.9}% 34
+\BOOKMARK [1][-]{section.10}{Conclusion}{}% 35
+\BOOKMARK [1][-]{section*.2}{Appendices}{}% 36
+\BOOKMARK [1][-]{Appendix.a.A}{Appendix Source Codes}{}% 37
