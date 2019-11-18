@@ -11,17 +11,21 @@
 \BOOKMARK [1][-]{section.5}{Problem 1: Design for Decision Model}{}% 11
 \BOOKMARK [2][-]{subsection.5.1}{Net Income for Queueing Taxis}{section.5}% 12
 \BOOKMARK [2][-]{subsection.5.2}{Net Income for Returning Taxis}{section.5}% 13
-\BOOKMARK [1][-]{section.6}{Problem 2: Verification for the Decision Model}{}% 14
-\BOOKMARK [1][-]{section.7}{Problem 3: Design for Schedule Model}{}% 15
-\BOOKMARK [1][-]{section.8}{Problem 4: Design for Priority Model}{}% 16
-\BOOKMARK [2][-]{subsection.8.1}{Construction of Priority Model}{section.8}% 17
-\BOOKMARK [2][-]{subsection.8.2}{Verification of Priority Model}{section.8}% 18
-\BOOKMARK [1][-]{section.9}{Model Appraisal}{}% 19
-\BOOKMARK [2][-]{subsection.9.1}{The strengths of the model}{section.9}% 20
-\BOOKMARK [2][-]{subsection.9.2}{The weaknesses of the model}{section.9}% 21
-\BOOKMARK [2][-]{subsection.9.3}{The improvement of the model}{section.9}% 22
-\BOOKMARK [2][-]{subsection.9.4}{The Extension of the model}{section.9}% 23
-\BOOKMARK [1][-]{section.10}{Conclusion}{}% 24
-\BOOKMARK [1][-]{section*.2}{Appendices}{}% 25
-\BOOKMARK [1][-]{Appendix.a.A}{Appendix First appendix}{}% 26
-\BOOKMARK [1][-]{Appendix.a.B}{Appendix Second appendix}{}% 27
+\BOOKMARK [1][-]{section.6}{Problem 2: Decisions for Drivers and Analysis for the Decision Model}{}% 14
+\BOOKMARK [2][-]{subsection.6.1}{Data Preparing}{section.6}% 15
+\BOOKMARK [2][-]{subsection.6.2}{Parameter Calibration}{section.6}% 16
+\BOOKMARK [2][-]{subsection.6.3}{Model Calculation}{section.6}% 17
+\BOOKMARK [2][-]{subsection.6.4}{Rationality Analysis}{section.6}% 18
+\BOOKMARK [2][-]{subsection.6.5}{Dependency Analysis}{section.6}% 19
+\BOOKMARK [1][-]{section.7}{Problem 3: Design for Schedule Model}{}% 20
+\BOOKMARK [1][-]{section.8}{Problem 4: Design for Priority Model}{}% 21
+\BOOKMARK [2][-]{subsection.8.1}{Construction of Priority Model}{section.8}% 22
+\BOOKMARK [2][-]{subsection.8.2}{Verification of Priority Model}{section.8}% 23
+\BOOKMARK [1][-]{section.9}{Model Appraisal}{}% 24
+\BOOKMARK [2][-]{subsection.9.1}{The strengths of the model}{section.9}% 25
+\BOOKMARK [2][-]{subsection.9.2}{The weaknesses of the model}{section.9}% 26
+\BOOKMARK [2][-]{subsection.9.3}{The improvement of the model}{section.9}% 27
+\BOOKMARK [2][-]{subsection.9.4}{The Extension of the model}{section.9}% 28
+\BOOKMARK [1][-]{section.10}{Conclusion}{}% 29
+\BOOKMARK [1][-]{section*.2}{Appendices}{}% 30
+\BOOKMARK [1][-]{Appendix.a.A}{Appendix Source Codes}{}% 31
